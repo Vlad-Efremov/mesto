@@ -1,0 +1,29 @@
+.input__name {
+  margin        : 54px auto 0 auto;
+  height        : 27px;
+  padding-bottom: 13px;
+  border        : 0;
+  font-family   : "Inter";
+  font-style    : normal;
+  font-weight   : normal;
+  font-size     : 14px;
+  line-height   : 17px;
+  text-overflow : ellipsis;
+  white-space   : nowrap;
+  overflow      : hidden;
+  color         : #000000;
+  width         : 358px;
+  border-bottom : 1px solid rgba(0, 0, 0, 0.2);
+  box-sizing    : border-box;
+}
+
+.input__name:focus {
+  outline: none;
+}
+
+@media all and (max-width:360px) {
+  .input__name {
+    width : 238px;
+    margin: 75px 22px 0 22px;
+  }
+}
