@@ -1,6 +1,6 @@
 console.log('loaded')
 
-const closeButton = document.querySelector(".popup__close-icon");
+const closeButton = document.querySelector(".popup__close-button");
 const editButton = document.querySelector(".profile__edit-button");
 const popup = document.querySelector(".popup");
 const formElement = document.querySelector(".popup__content");
