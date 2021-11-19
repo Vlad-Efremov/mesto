@@ -4,6 +4,7 @@
   align-items: center;
   flex-wrap  : wrap;
   margin     : 0 auto 0 auto;
+  padding    : 0 15px 0 15px;
   padding-top: 40px;
 }
 
@@ -12,6 +13,6 @@
     max-width     : 282px;
     flex-direction: column;
     align-items   : center;
-    padding-top   : 42px;
+    padding       : 42px 0 0 0;
   }
 }

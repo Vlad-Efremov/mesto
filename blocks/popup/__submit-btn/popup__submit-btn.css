@@ -21,7 +21,7 @@
   opacity: 0.8;
 }
 
-@media all and (max-width:360px) {
+@media all and (max-width:570px) {
   .popup__submit-btn {
     width      : 238px;
     height     : 46px;

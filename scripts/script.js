@@ -21,12 +21,12 @@ function closePopup() {
   popup.classList.remove("popup_open")
 }
 
-function formSubmitHandler() {
+function formSubmitHandler(evt) {
   evt.preventDefault();
 
   profileName.textContent = nameImput.value;
   profileWorkplace.textContent = jobImput.value;
-  clousePopup();
+  closePopup();
 }
 
 formElement.addEventListener('submit', formSubmitHandler);

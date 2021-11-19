@@ -21,7 +21,7 @@
   outline: none;
 }
 
-@media all and (max-width:360px) {
+@media all and (max-width:570px) {
   .input__workplace {
     width: 238px;
   }
